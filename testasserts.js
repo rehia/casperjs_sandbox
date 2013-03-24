@@ -11,5 +11,7 @@ casper.start('http://casperjs.org/index.html', function() {
     this.test.assertExists('#about', 'ça marche !');
 });
 
+casper.run();
+
 
 
